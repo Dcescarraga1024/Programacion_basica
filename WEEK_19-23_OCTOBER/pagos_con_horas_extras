@@ -4,9 +4,9 @@ Algoritmo pago_con_horas_extra
 	leer horas
 	extra <- horas
 	Si horas > 42 Entonces
-		extra <- (horas*8838*1.5) - 42 
-		escribir " el pago total con horas extras es con ",extra
+		extra <- (42*8838)+((horas -42) *8838*1.5)
+		escribir " el pago total con horas extras es:  ",extra
 	SiNo
-		escribir "pago ",horas*8838
+		escribir "pago total:  ",horas*8838
 	Fin Si
 FinAlgoritmo
