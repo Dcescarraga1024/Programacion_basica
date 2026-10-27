@@ -1,0 +1,10 @@
+Algoritmo fin_de_semana
+	definir num Como entero
+	escribir "de un numero de la semana: "
+	leer num
+	si num >= 1 o num <= 5 Entonces
+		escribir "no es fin de semana trabaja"
+	SiNo
+		escribir"es fin de semana"
+	FinSi
+FinAlgoritmo
