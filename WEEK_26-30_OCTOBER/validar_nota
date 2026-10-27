@@ -1,1 +1,10 @@
-
+Algoritmo ValidarNota
+	definir nota Como Real
+	escribir "ingrese una nota: "
+	leer nota
+	si nota>= 0 y nota <= 5 Entonces
+		escribir "nota valida"
+	sino 
+		escribir "nota invalida"
+	FinSi
+FinAlgoritmo
