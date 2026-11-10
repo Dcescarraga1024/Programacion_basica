@@ -1,0 +1,11 @@
+Algoritmo sum
+Definir i,sum,n Como Entero
+Escribir "dame un numero: "
+leer n
+sum<-0
+Para i <- 1 Hasta n Hacer
+  sum<-sum+i
+FinPara
+Escribir "El resultado de la suma es: ",sum
+Escribir "la cantidad de numeros sumados es: ",n
+FinAlgoritmo
