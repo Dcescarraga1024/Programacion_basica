@@ -1,4 +1,4 @@
-Algoritmo suma_2
+Algoritmo repetir_nombre
 Definir n Como Entero
 Definir name Como caracter
 Escribir "dame tu nombre "
